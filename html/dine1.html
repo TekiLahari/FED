@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+	<title> Dine Booking</title>
+	<style>
+	body{
+	text-align:center;
+	}
+	</style>
+	</head>
+	<body>
+	<h2 align="center">Dine Booking</h2>
+	Visitor Name:<input type="text" maxlength="50"><br><br>
+	Number Of Members:<input type="text" ><br><br>
+	Contact Number:<input type="tel" maxlength="10" minlength="10"><br><br>
+	Email:<input type="email" name="mail" pattern="[a-zA-z0-9]+@[a-z0-9]+\.[a-z]{2,s}" ><br><br>
+	Type of Food:
+	<input type="checkbox" name="south Indian" value="south Indian" checked="yes">South Indian
+	<input type="checkbox" name="north Indian" value="north Indain">North Indian
+	<input type="checkbox" name="chinese" value="chinese">Chinese
+	<input type="checkbox" name="western" value="western">Western
+	<br><br>
+	Room status:<input type="radio" name="ac" value="Ac" checked>AC
+	<input type="radio" name="Non-Ac" name="Non-Ac" value="Non-Ac">Non-AC
+	<br><br>
+	venue preference:
+	<select>
+	<option value="guntur" name="guntur" selected>--Select-- </option>
+	<option value="guntur" name="guntur">guntur </option>
+	<option value="vijayawada" name="vijayawada">vijayawada</option>
+	</select>
+	<br><br>
+	<input type="submit" value="Book" >
+	<input type="reset" value="reset">
+	</body>
+	</html>
